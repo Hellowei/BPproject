@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LicensePlateRecognition - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\rain\AppData\Local\Temp\RSP99BE.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/LicensePlateRecognition.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\360data\重要数据\桌面\LicensePlateRecognition 2012-4-25友好操作 - 副本\BP.cpp"
+]
+Creating command line "cl.exe @C:\Users\rain\AppData\Local\Temp\RSP99BE.tmp" 
+Creating temporary file "C:\Users\rain\AppData\Local\Temp\RSP99BF.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/LicensePlateRecognition.pdb" /debug /machine:I386 /out:"Debug/LicensePlateRecognition.exe" /pdbtype:sept 
+".\Debug\BP.obj"
+".\Debug\LicensePlateRecognition.obj"
+".\Debug\StdAfx.obj"
+".\Debug\LicensePlateRecognition.res"
+]
+Creating command line "link.exe @C:\Users\rain\AppData\Local\Temp\RSP99BF.tmp"
+<h3>Output Window</h3>
+Compiling...
+BP.cpp
+d:\360data\重要数据\桌面\licenseplaterecognition 2012-4-25友好操作 - 副本\bp.cpp(1) : warning C4652: compiler option 'Generate Browser Info' inconsistent with precompiled header; current command-line option will override that defined in the precompiled header
+D:\360data\重要数据\桌面\LicensePlateRecognition 2012-4-25友好操作 - 副本\BP.cpp(844) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\360data\重要数据\桌面\LicensePlateRecognition 2012-4-25友好操作 - 副本\BP.cpp(845) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\360data\重要数据\桌面\LicensePlateRecognition 2012-4-25友好操作 - 副本\BP.cpp(917) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\360data\重要数据\桌面\LicensePlateRecognition 2012-4-25友好操作 - 副本\BP.cpp(920) : warning C4101: 's' : unreferenced local variable
+D:\360data\重要数据\桌面\LicensePlateRecognition 2012-4-25友好操作 - 副本\BP.cpp(988) : warning C4101: 'BPWeightFileName' : unreferenced local variable
+D:\360data\重要数据\桌面\LicensePlateRecognition 2012-4-25友好操作 - 副本\BP.cpp(989) : warning C4101: 'BPWeight' : unreferenced local variable
+D:\360data\重要数据\桌面\LicensePlateRecognition 2012-4-25友好操作 - 副本\BP.cpp(989) : warning C4101: 'BPWeightKeyName' : unreferenced local variable
+D:\360data\重要数据\桌面\LicensePlateRecognition 2012-4-25友好操作 - 副本\BP.cpp(987) : warning C4101: 'l' : unreferenced local variable
+D:\360data\重要数据\桌面\LicensePlateRecognition 2012-4-25友好操作 - 副本\BP.cpp(1048) : warning C4101: 'BPWeightFileName' : unreferenced local variable
+D:\360data\重要数据\桌面\LicensePlateRecognition 2012-4-25友好操作 - 副本\BP.cpp(1049) : warning C4101: 'BPWeight' : unreferenced local variable
+D:\360data\重要数据\桌面\LicensePlateRecognition 2012-4-25友好操作 - 副本\BP.cpp(1049) : warning C4101: 'BPWeightKeyName' : unreferenced local variable
+D:\360data\重要数据\桌面\LicensePlateRecognition 2012-4-25友好操作 - 副本\BP.cpp(1047) : warning C4101: 'l' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+LicensePlateRecognition.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
